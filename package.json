@@ -1,0 +1,29 @@
+{
+  "name": "g2s",
+  "version": "0.0.1",
+  "description": "A little tool for developer who has to commit git repo codes to svn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titancat/g2s.git"
+  },
+  "keywords": [
+    "git",
+    "svn",
+    "tool"
+  ],
+  "author": "mcattx@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titancat/g2s/issues"
+  },
+  "homepage": "https://github.com/titancat/g2s#readme",
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "shelljs": "^0.7.7",
+    "svn-interface": "^0.5.0"
+  }
+}
